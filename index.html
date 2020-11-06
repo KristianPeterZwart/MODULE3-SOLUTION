@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Solution</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body id="top">
+  <header>
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top" role='navigation'>
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <p><span>Food, LLC</span></p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <!-- 'text-center' is a Bootstrap class -->
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+            <li>
+              <a href="#menu1"  data-toggle="collapse" data-target="#collapsable-nav"><span>Chicken</span></a>
+            </li>
+            <li>
+              <a href="#menu2" data-toggle="collapse" data-target="#collapsable-nav"><span>Beef</span></a>
+            </li>
+            <li>
+              <a href="#menu3" data-toggle="collapse" data-target="#collapsable-nav"><span>Sushi</span></a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container-fluid -->
+    </nav><!-- #header-nav -->
+  </header>
+  <div id="menu1" style="height: 30px; visibility: hidden;"></div>
+  <div id="main-content" class="container">
+    <!-- 'text-center' is a Bootstrap class -->
+    <h1 class="text-center">Our Menu</h1>
+    
+    <div class="row container container-fluid">
+      <div class="col-md-12 col-sm-12 col-xs-12 food-description">
+        <section>
+          <div>
+            <p id="chicken">Chicken</p>
+          </div>
+          <p class="text">
+            Chicken meat is high and protein and low in fat, which varies in white and dark meat. Boneless, skinless chicken breast meat is one of the only types of meat that doesn't contain saturated fat. A roasted chicken is one of life’s simplest pleasures. Brush the chicken with clarified butter and season all sides with salt, then roast at 475°F for 20–25 minutes. Reduce heat to 400°F and continue to roast another 30-45 minutes, until thighs and center of the chicken breast registers 160°F and the juices run clear. Let rest at least 20 minutes before carving.
+          </p>
+          <div id="menu2" style="height: 60px; visibility: hidden;"></div>
+        </section>
+        <a href="#top"><div id="top-menu"><span>top</span></div></a>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12 food-description">
+        <section>
+          <div>
+            <p id="beef">Beef</p>
+          </div>
+          <p class="text">
+            From a prehistoric looking T-bone steak to your average ballpark hot dogs and beef jerky, beef is a delicacy best enjoyed sparingly. It shares a main fatty acid with none other than olive oil—oleic acid. Ground beef makes for quick and easy burgers: combine the meat with egg, onions, salt, and spices or flavorings of your choice (think Worcestershire sauce and powdered garlic) and form the mixture into patties. Grill for a few minutes on either side and pair with your favorite burger toppings.
+          </p>
+          <div id="menu3" style="height: 60px; visibility: hidden;"></div>
+        </section>
+        <a href="#top"><div id="top-menu"><span>top</span></div></a>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12 food-description">
+        <section>
+          <div>
+            <p id="sushi">Sushi</p>
+          </div>
+          <p class="text">
+            Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian.
+          </p>
+        </section>
+        <a href="#top"><div id="top-menu"><span>top</span></div></a>
+      </div>
+    </div><!-- row -->
+  </div><!-- #main-content -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/_script.js"></script>
+</body>
+</html>
